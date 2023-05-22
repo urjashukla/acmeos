@@ -1,0 +1,181 @@
+.oflw {
+  overflow: hidden;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 65px;
+}
+
+.mainImg {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.textcol {
+  padding: 60px 0px 32px 40px;
+}
+
+.tagline {
+  font-size: 60px;
+}
+
+.taglineText {
+  font-size: 16px;
+  margin: 30px 0;
+  color: #777;
+  font-weight: 400;
+  width: 80%;
+}
+
+@media (max-width: 1076px) {
+  .tagline {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 912px) {
+  .tagline {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 786px) {
+  .mainImg {
+    margin-top: 0%;
+  }
+}
+
+.servicesDiv {
+  padding-top: 50px;
+  background: #6f5acd;
+}
+
+.weprovide {
+  color: #e8e2ff;
+  height: 20%;
+  text-align: center;
+  padding: 2%;
+  font-size: 60px;
+}
+
+.servicescarddiv {
+  padding-top: 2%;
+  height: 80%;
+}
+
+.servicescarddiv a {
+  text-decoration: none;
+}
+
+.servicescarddiv .card {
+  border-radius: 20px;
+  height: 450px;
+  background: #533abf;
+  color: white;
+  border-color: #533abf;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.servicescarddiv .card:hover {
+  box-shadow: 10px 10px 57px -25px rgba(83, 58, 191, 1);
+  transform: translate3d(0, -6px, 0);
+}
+
+.imgBox {
+  position: relative;
+  width: 50%;
+  top: -90px;
+  left: 25%;
+  z-index: 1;
+}
+
+.imgBox img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.cardText {
+  text-align: center;
+  margin-top: -42px;
+}
+
+.cardTitle {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #ff93dd;
+}
+
+.cardText p {
+  font-size: 20px;
+  color: #e8e2ff;
+}
+
+.joinUsSpacing {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.joinus {
+  color: #6f5cbd;
+}
+
+@media screen and (min-width: 2000px) {
+  .cardText {
+    margin-top: -120px;
+  }
+}
+
+.landing-page {
+  padding: 80px 0;
+  user-select: none;
+}
+
+.landing-page .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-page .content .text-cont {
+  width: 50%;
+}
+.landing-page .content .text-cont .header {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+.landing-page .content .text-cont .description {
+  font-size: 16px;
+  margin: 30px 0;
+  color: #777;
+  font-weight: 400;
+  width: 80%;
+}
+.landing-page .content .img-cont {
+  width: 35%;
+  position: relative;
+}
+.landing-page .content .img-cont .img {
+  width: 560px;
+  height: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .landing-page .content {
+    flex-direction: column;
+  }
+  .landing-page .content .text-cont,
+  .landing-page .content .text-cont .description {
+    width: 100%;
+  }
+  .landing-page .content .text-cont {
+    text-align: center;
+  }
+  .landing-page .content .img-cont {
+    width: 80%;
+    margin-top: 80px;
+  }
+}

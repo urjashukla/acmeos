@@ -1,0 +1,38 @@
+.askbtn {
+  float: right;
+}
+.asktxt {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* DoubtCard */
+
+.coltitle {
+  color: #0d6efd;
+}
+.coltitle:hover {
+  color: #0b5ed7;
+}
+.coldate {
+  color: #0d6efd;
+  font-size: 0.7em;
+  float: right;
+}
+.categoryBadge {
+  background: #32c749;
+  margin: 2px;
+}
+
+.coltitle>a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 575px) {
+  .coldate {
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+/* DoubtCard */

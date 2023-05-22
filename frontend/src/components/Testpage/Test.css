@@ -1,0 +1,18 @@
+.TestHeroDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.TestImgEncloseDiv{
+    display: inline-block;
+    margin: 40px;
+}
+
+.TestWIP{
+    text-align: center;
+    font-family: monospace;
+    color: mediumpurple;
+}
